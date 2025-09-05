@@ -1,16 +1,21 @@
-//Q21: Write a program to display the month name and number of days using switch-case for a given month number.
+//Q22: Write a program to find profit or loss percentage given cost price and selling price.
 
 /*
 Sample Test Cases:
 Input 1:
-2
+1000 1200
 Output 1:
-February, 28 days
+Profit 20%
 
 Input 2:
-12
+1000 800
 Output 2:
-December, 31 days
+Loss 20%
+
+Input 3:
+1000 1000
+Output 3:
+No Profit No Loss
 
 */
 #include <stdio.h>
