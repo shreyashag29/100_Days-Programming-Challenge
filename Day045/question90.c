@@ -6,7 +6,6 @@ Input 1:
 Hello
 Output 1:
 hELLO
-
 */
 #include<stdio.h>
 int main(){

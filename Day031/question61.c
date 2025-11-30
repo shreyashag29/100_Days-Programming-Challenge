@@ -15,7 +15,6 @@ Input 2:
 25
 Output 2:
 -1
-
 */
 #include <stdio.h>
 int main() {

@@ -37,7 +37,7 @@ int main() {
 
 void main() {
     int n, digit;
-    int freq[10] = {0};  // To store frequency of each digit
+    int freq[10] = {0};  
     
     printf("Enter number: ");
     scanf("%d", &n);
