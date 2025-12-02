@@ -20,24 +20,25 @@ Output 3:
 */
 #include <stdio.h>
 
-void main() {
-    int n, target, i, first=-1, last=-1;
+int main() {
+    int n, target, i, first = -1, last = -1;
     int nums[100];
-
     scanf("%d", &n);
     for(i = 0; i < n; i++) {
         scanf("%d", &nums[i]);
     }
     scanf("%d", &target);
-
     for(i = 0; i < n; i++) {
         if(nums[i] == target) {
-            if(first == -1) first = i;
+            if(first == -1)
+                first = i;
             last = i;
         }
     }
-
     if(first == -1)
         printf("-1,-1");
     else
         printf("%d,%d", first, last);
+
+    return 0;
+}
