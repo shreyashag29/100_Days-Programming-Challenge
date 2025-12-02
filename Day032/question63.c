@@ -1,4 +1,4 @@
-Q63: Merge two arrays.
+//Q63: Merge two arrays.
 
 /*
 Sample Test Cases:
@@ -41,3 +41,4 @@ int main() {
     }
     return 0;
 }
+
