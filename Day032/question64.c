@@ -1,4 +1,4 @@
-Q64: Find the digit that occurs the most times in an integer number.
+//Q64: Find the digit that occurs the most times in an integer number.
 
 /*
 Sample Test Cases:
@@ -60,3 +60,4 @@ void main() {
     
     printf("Digit that occurs the most: %d", ans);
 }
+
