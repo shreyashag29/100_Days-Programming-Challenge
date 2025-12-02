@@ -1,4 +1,4 @@
-Q66: Insert an element in a sorted array at the appropriate position.
+//Q66: Insert an element in a sorted array at the appropriate position.
 
 /*
 Sample Test Cases:
@@ -9,4 +9,29 @@ Input 1:
 Output 1:
 1 2 3 4 5 6
 
+
 */
+#include <stdio.h>
+
+int main() {
+    int n, elem;
+    scanf("%d", &n);
+    int arr[n + 1]; 
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
+    scanf("%d", &elem);
+    int i = n - 1;
+    while (i >= 0 && arr[i] > elem) {
+        arr[i + 1] = arr[i];
+        i--;
+    }
+    arr[i + 1] = elem;
+    n++; 
+
+    for (int j = 0; j < n; j++) {
+        printf("%d ", arr[j]);
+    }
+
+    return 0;
+}
